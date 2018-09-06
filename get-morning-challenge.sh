@@ -10,3 +10,4 @@ git push -f origin master
 git branch -d $1
 echo "Done!"
 ls
+
