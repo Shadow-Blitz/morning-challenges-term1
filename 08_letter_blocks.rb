@@ -40,3 +40,13 @@
 # Extension
 # Use the lots_of_words.txt file to test your code.
 # Now order the words that can be made by length.
+def remaining_letter?(letter_to_test, letter_blocks)
+    test[]
+end
+for letter_blocks is
+
+def can_make_word(example_word)
+    letter_blocks = [['B','O'], ['X','K'], ['D','Q'], ['C','P'], ['N','A'], ['G','T'], ['R','E'], ['T','G'], ['Q','D'], ['F','S'], ['J','W'], ['H','U'], ['V','I'], ['A','N'], ['E','R'], ['F','S'], ['L','Y'], ['P','C'], ['Z','M'],]
+end
+
+can_make_word=
