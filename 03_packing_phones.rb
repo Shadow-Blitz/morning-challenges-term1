@@ -21,6 +21,7 @@
 #
 #    Keep it as simple as you can.
 
+<<<<<<< HEAD
 postal_box_w = 32
 postal_box_l = 43
 postal_box_d = 22.1
@@ -35,3 +36,17 @@ puts phones_in_box_l
 phones_in_box_d = (postal_box_d / phone_box_d).to_i
 puts phones_in_box_w
 puts "Total phones fit into the postal box =#{(phones_in_box_d * phones_in_box_l * phones_in_box_w).to_i}"
+=======
+phone = [5, 7.4, 4]
+box = [32, 43, 22.1]
+
+max_phones = 0
+phone.permutation do |orient|
+    print orient
+    puts
+    num_phones = (box[0] / orient[0]).to_i * (box[1] / orient[1]).to_i * (box[2] / orient[2]).to_i
+    max_phones = num_phones if num_phones > max_phones
+end
+
+puts max_phones
+>>>>>>> a66f15b560d5615b416b1045b016e9e610546faf
