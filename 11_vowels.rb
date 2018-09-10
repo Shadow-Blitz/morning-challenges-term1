@@ -13,7 +13,10 @@
 # Check your solution by running the tests:
 # ruby tests/04_vowels_test.rb
 #
-
+vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+sentence_one = "The quick brown fox"
 def vowels (string)
-  # Your code here
+count_the_vowels =(sentence_one)-(vowels)
 end
+
+puts "#{count_the_vowels}"
