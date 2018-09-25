@@ -13,6 +13,7 @@
 # Check your solution by running the tests:
 # ruby tests/04_vowels_test.rb
 #
+<<<<<<< HEAD
 vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
 sentence_one = "The quick brown fox"
 def vowels (string)
@@ -20,3 +21,9 @@ count_the_vowels =(sentence_one)-(vowels)
 end
 
 puts "#{count_the_vowels}"
+=======
+
+def vowels (string)
+  string.scan(/[aeiou]/i)
+end
+>>>>>>> b028df5d644e116007105a13b9522c8e1282f993
